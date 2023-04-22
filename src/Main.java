@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        DictionaryOfManyTranslations d = new DictionaryOfManyTranslations();
+        d.translate("monkey");
+        System.out.println(d);
     }
 }
